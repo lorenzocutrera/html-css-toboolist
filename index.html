@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +21,70 @@
 
     <main>
         <div>
-            <header>
-                <button>Add Task</button>
-                <button>Add Section</button>
+            <header class="header_main">
+                <button class="button1">Add Task</button>
+                <button class="button2">Add Section</button>
             </header>
+            <!-- MENUS -->
+            <div class="sections">
+                <!-- primo elemento -->
+                <details open>
+                    <summary>
+                        <h2>New Task</h2>
+                    </summary>
+                    <ul>
+                        <li><a class="check">&#10004;</a>Quarterly Newsletter<span
+                                class="blue_btn">Editorial</span></li>
+                    </ul>
+
+                </details>
+                <!-- fine primo elemento -->
+                <!-- secondo elemento -->
+                <details open>
+                    <summary>
+                        <h2>Today</h2>
+                    </summary>
+                    <ul>
+                        <li><a class="check">&#10004;</a>Recruiting blog post<span class="blue_btn">Editorial</span></li>
+                        <li><a class="check">&#10004;</a>Mobile app luaunch<span class="violet_btn">Q1 Goals</span></li>
+                        <li><a class="xsymbol">&#9447;</a>Interview John H.<span class="green_btn">Recruiting</span></li>
+                        <li><a class="check">&#10004;</a>Summit update to mobile storefonts<span class="orange_btn">Mobile</span></li>
+                    </ul>
+
+                </details>
+                <!-- fine secondo elemento -->
+
+                <!-- terzo elemento -->
+                <details open>
+                    <summary>
+                        <h2>Upcoming</h2>
+                    </summary>
+                    <ul>
+                        <li><a class="xsymbol">&#9447;</a>Schedule meeting with Alex</li>
+                        <li><a class="check">&#10004;</a>Home page refresh<span class="pink_btn">Website</span></li>
+                        <li><a class="check">&#10004;</a>Onboard new Sales team members<span class="lightgreen_btn">Sales</span></li>
+                        <li><a class="check">&#10004;</a>Review editorial calendar<span class="blue_btn">Editorial</span></li>
+                    </ul>
+
+                </details>
+                <!-- fine terzo elemento -->
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- END MENUS -->
         </div>
     </main>
 
 
-    <footer></footer>
+    <footer>
+        <p>&copy;Lorenzo Cutrera</p>
+    </footer>
 </body>
+
 </html>
