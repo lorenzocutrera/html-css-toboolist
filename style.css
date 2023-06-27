@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #50555c;
+}
+
+.header_site{
+    background-color: white;
+}
+
+.logo{
+    width: 50px;
+}
+
+h1{
+    display: inline-block;
+    color: black;
+    vertical-align: 50%;
+}
+
+main{
+    background-color: #f7f8f9;
+}
